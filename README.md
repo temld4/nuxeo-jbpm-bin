@@ -1,5 +1,5 @@
-### Nuxeo JBPM package
+## Nuxeo JBPM package
 
-## Install
+### Install
 
     $ ./nuxeoctl mp-install $PATH/to/package.zip
