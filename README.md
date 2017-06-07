@@ -7,11 +7,12 @@
 Let us use the following designations:
 
 $NUXEO_SERVER_PATH - full path to Nuxeo Server root folder
+
 $PACKAGE_PATH - full path to a folder where you will put Nuxeo JBPM package
+
 nuxeo-jbpm-package-9.2-SNAPSHOT.zip - name of the Nuxeo JBPM package
 
-Note:
-You should have nuxeo-jsf-ui package installed, otherwise you need your Nuxeo Server instance to be registered, so the required package will be automatically installed from Nuxeo Marketplace during JBPM package installation.
+Note: You should have nuxeo-jsf-ui package installed, otherwise you need your Nuxeo Server instance to be registered, so the required package will be automatically installed from Nuxeo Marketplace during JBPM package installation.
 
 #### Installation
 
