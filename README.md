@@ -24,7 +24,7 @@ Note: You should have `nuxeo-jsf-ui` package installed, otherwise you need your 
 
     `$NUXEO_SERVER_PATH/bin/nuxeoctl stop`
 
-4. Install the package:
+4. Install the package
 
     `$NUXEO_SERVER_PATH/bin/nuxeoctl mp-install $PACKAGE_PATH/nuxeo-jbpm-package-9.2-SNAPSHOT.zip`
     
