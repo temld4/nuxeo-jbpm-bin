@@ -20,13 +20,17 @@ Note: You should have `nuxeo-jsf-ui` package installed, otherwise you need your 
 
 2. Put it in `$PACKAGE_PATH` folder
 
-3. Execute the following command:
+3. Stop Nuxeo Server
+
+    `$NUXEO_SERVER_PATH/bin/nuxeoctl stop`
+
+4. Install the package:
 
     `$NUXEO_SERVER_PATH/bin/nuxeoctl mp-install $PACKAGE_PATH/nuxeo-jbpm-package-9.2-SNAPSHOT.zip`
     
-4. Answer 'yes' to the prompt appearing
+5. Answer 'yes' to the prompt appearing
 
-5. Add the following configuration to context.xml file located at $NUXEO_SERVER_PATH/conf/ right before closing `</Context>` tag
+6. Add the following configuration to context.xml file located at $NUXEO_SERVER_PATH/conf/ right before closing `</Context>` tag
 
     ```
     <Resource name="jdbc/nxjbpm" auth="Container" type="javax.sql.DataSource"
@@ -35,3 +39,6 @@ Note: You should have `nuxeo-jsf-ui` package installed, otherwise you need your 
               url="jdbc:derby:nxjbpm;create=true"/>
     ```
 
+7. Start Nuxeo Server
+
+    `$NUXEO_SERVER_PATH/bin/nuxeoctl start`
