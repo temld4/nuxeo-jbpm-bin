@@ -30,7 +30,7 @@ Note: You should have `nuxeo-jsf-ui` package installed, otherwise you need your 
     
 5. Answer 'yes' to the prompt appearing
 
-6. Add the following configuration to context.xml file located at $NUXEO_SERVER_PATH/conf/ right before closing `</Context>` tag
+6. Add the following configuration to `context.xml` file located at `$NUXEO_SERVER_PATH/conf/` right before closing `</Context>` tag
 
     ```
     <Resource name="jdbc/nxjbpm" auth="Container" type="javax.sql.DataSource"
